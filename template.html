@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>System update in progress</title>
 
-    <link href="styles/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 	<style type="text/css">
     body {
         background-color: #333;
@@ -31,9 +31,6 @@
     <script src="scripts/qs.js"></script>
     <script src="bundles/{replace}/content.js"></script>
 	<script>
-        console.log( content );
-        console.log( content.heading );
-
         if( content.title != undefined ) {
             $('title').text( content.title );
         }
@@ -43,7 +40,6 @@
         if( content.description != undefined ) {
             $('#description').text( content.description);
         }
-
 	</script>
 </body>
 </html>
