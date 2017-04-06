@@ -9,9 +9,9 @@ Each context has its own folder under the `bundles/` directory:
  * "microsoft" - `bundles/microsoft/`
 
 `bundles/` directory structure:
-    - `bundles/{context}/` - all your context content
-    - `bundles/{context}/main.png` - *fixed* name - the main image
-    - `bundles/{context}/content.js` - *fixed* name - where content structured
+ * `bundles/{context}/` - all your context content
+ * `bundles/{context}/main.png` - *fixed* name - the main image
+ * `bundles/{context}/content.js` - *fixed* name - where content structured
 
 `content.js` data structure:
 
