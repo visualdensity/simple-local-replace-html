@@ -21,6 +21,7 @@ Each context has its own folder under the `bundles/` directory:
         "description": "Some longer description right here. Please do not shut down"
     }
 
+
 # How to use
 
 Dynamically generating context-relevant page:
@@ -29,6 +30,9 @@ Dynamically generating context-relevant page:
 Example - if you're trying to launch the page for Adobe installation, you'd do this (on Mac or Linux):
 
     cat template.html | sed -e 's/{replace}/adobe/g' > launch.html
+
+You can also use the `generate.sh` or view source for working example:
+    ./generate.sh adobe
 
 
 # Adding new context
