@@ -11,6 +11,6 @@ Each context has its own folder under the `bundles/` directory:
 Dynamically generating context-relevant page:
  * Search & replace `{replace}` text with the context 
 
-Example - if you're trying to launch the page for Adobe installation, you'd do this (on Mac):
+Example - if you're trying to launch the page for Adobe installation, you'd do this (on Mac or Linux):
 
     cat template.html | sed -e 's/{replace}/adobe/g' > launch.html
