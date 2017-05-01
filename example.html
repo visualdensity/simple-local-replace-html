@@ -9,30 +9,27 @@
     body {
         background-color: #333;
         color: #fff;
-        padding-top: 3em;
+        padding-top: 3.5em;
     }
     #heading {
-        margin-top: 2em;
     }
     img#main {
+        margin-top: 2em;
+        margin-bottom: 1.8em;
         width: 500px;
         height: 500px;
     }
     </style>
 </head>
 <body>
-    <img id="main" src="bundles/adobe/main.png" class="center-block img-responsive" alt="Responsive image" />
 
     <h1 id="heading" class="text-center"></h1>
+    <img id="main" src="bundles/adobe/main.png" class="center-block img-responsive" alt="Responsive image" />
     <p id="description" class="text-center"></p>
-
   
     <script src="scripts/jquery-3.2.0.min.js"></script>
     <script src="bundles/adobe/content.js"></script>
 	<script>
-        console.log( content );
-        console.log( content.heading );
-
         if( content.title != undefined ) {
             $('title').text( content.title );
         }
@@ -42,7 +39,6 @@
         if( content.description != undefined ) {
             $('#description').text( content.description);
         }
-
 	</script>
 </body>
 </html>
